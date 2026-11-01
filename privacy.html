@@ -1,0 +1,45 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Privacy Policy for Salt Lake City Automations Discord bot.">
+  <title>Privacy Policy | Salt Lake City Automations</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header class="site-header"><a class="brand" href="index.html">Salt Lake City Automations</a><a class="back" href="index.html">← Home</a></header>
+  <main class="document">
+    <p class="eyebrow">Last updated November 1, 2026</p>
+    <h1>Privacy Policy</h1>
+    <p class="lede">This policy describes how Salt Lake City Automations (the “Bot”) handles information when installed in a Discord server and used with the code supplied for this project.</p>
+    
+
+    <h2>Who operates the Bot</h2>
+    <p><strong>Operator:</strong> Myjsyncrunofficial<br><strong>Contact:</strong> <a href="mailto:saltlakecity70@gmail.com">saltlakecity70@gmail.com</a></p>
+    <p>The server owner or operator running the Bot is responsible for its hosting, configuration, access controls, and any code changes.</p>
+
+    <h2>Information the Bot handles</h2>
+    <p>When someone runs a Bot command, Discord sends the interaction data needed to process it. The Bot uses command options, the Discord server ID, and relevant Discord account IDs and names to respond and carry out the requested action. It does not request message-content access.</p>
+    <p>When authorized staff use <code>/moderate</code>, the Bot saves a case containing the action, moderated member’s Discord ID and tag, staff member’s Discord ID, reason entered by staff, and date and time. Cases are stored in JSON files on the computer or server where the Bot runs. The current code keeps these records until the Bot operator deletes them; it does not provide an automatic deletion schedule.</p>
+    <p>If configured with an ER:LC server API key, the Bot sends that key to the ER:LC API to request server status. The key is read from the Bot operator’s environment configuration. The <code>/server</code> command and optional status polling use the API response to show server information. ER:LC handles those requests under its own terms and privacy practices.</p>
+
+    <h2>How information is used</h2>
+    <p>The Bot uses information to respond to commands, create and display moderation case records, perform Discord kick or ban actions requested by staff, and, if configured, retrieve ER:LC server status. It does not sell information or use it for advertising.</p>
+
+    <h2>Storage, access, and sharing</h2>
+    <p>Moderation case files are stored locally with the Bot and are accessible to people who can access the computer, hosting account, backups, or files where the Bot runs. The supplied code does not encrypt these JSON files. The Bot operator should restrict access to the host and backups and must not publish <code>.env</code> files, tokens, API keys, or case files.</p>
+    <p>The Bot exchanges command and server data with Discord so it can operate. If ER:LC status features are enabled, it also communicates with the ER:LC API. Discord and ER:LC process information under their own policies. The Bot operator may disclose information if required by law or to protect the security of the Bot or server.</p>
+
+    <h2>Retention and deletion</h2>
+    <p>Moderation records remain in the local case file until the Bot operator deletes them. To request access to or deletion of a case, contact the Bot operator using the contact information above and include the case ID if available. A server owner or Bot operator can also remove records directly from the server’s case JSON file. Deleting records from the Bot does not delete copies in backups or records held by Discord or ER:LC.</p>
+
+    <h2>Children</h2>
+    <p>The Bot is intended for use in Discord communities and is not designed to collect information from children. Server owners and operators must use the Bot in compliance with applicable age and privacy laws and Discord’s rules.</p>
+
+    <h2>Changes and contact</h2>
+    <p>This policy may be updated when the Bot’s features or data handling change. Questions or requests can be sent to <a href="mailto:saltlakecity70@gmail.com">saltlakecity70@gmail.com</a>.</p>
+  </main>
+  <footer><span>Salt Lake City Automations</span><nav><a href="privacy.html">Privacy</a><a href="terms.html">Terms</a></nav></footer>
+</body>
+</html>
